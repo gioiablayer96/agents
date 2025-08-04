@@ -1,6 +1,11 @@
 from pydantic import BaseModel, Field
 from agents import Agent
 
+'''
+we're gonna use the planner agent to come up with 3 web searches that will be relevant. 
+and we want it to respond with an object of type WebSearchPlan.
+'''
+
 HOW_MANY_SEARCHES = 5
 
 INSTRUCTIONS = f"You are a helpful research assistant. Given a query, come up with a set of web searches \

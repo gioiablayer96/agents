@@ -5,6 +5,10 @@ from writer_agent import writer_agent, ReportData
 from email_agent import email_agent
 import asyncio
 
+'''
+this is the main class that will be used to run the deep research process.
+'''
+
 class ResearchManager:
 
     async def run(self, query: str):

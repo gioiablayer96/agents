@@ -1,5 +1,9 @@
 from agents import Agent, WebSearchTool, ModelSettings
 
+'''
+we're gonna use the search agent to run a web search for each item in the search plan.
+'''
+
 INSTRUCTIONS = (
     "You are a research assistant. Given a search term, you search the web for that term and "
     "produce a concise summary of the results. The summary must 2-3 paragraphs and less than 300 "
